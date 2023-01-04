@@ -8,9 +8,11 @@ Script that will open a browser, connect to Paris website through France Connect
 prefered method: rbenv
 
 # Installation
+```
 git clone https://github.com/joel1di1/paris_passport_check.git
 cd paris_passport_check
 bundle 
+```
 
 # usage
 $ ./check_paris.rb -i <IDENTIFIER> -p <PASSWORD> [options]
