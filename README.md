@@ -15,7 +15,9 @@ bundle
 ```
 
 # usage
+```
 $ ./check_paris.rb -i <IDENTIFIER> -p <PASSWORD> [options]
     -i, --identifier IDENTIFIER      [MANDATORY] Login Identifier (impots.gouv)
     -p, --password PASSWORD          [MANDATORY] Login password (impots.gouv)
     -h, --headless                   Run in headless mode
+```
