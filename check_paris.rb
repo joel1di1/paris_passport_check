@@ -1,3 +1,5 @@
+#!/usr/local/bin/ruby
+
 require 'optparse'
 require 'watir'
 
@@ -47,6 +49,8 @@ begin
   browser.text_field(name: 'pwd_tmp').set options[:password]
 
   browser.button(id: 'btnAction').click
+
+  sleep 1
 
   browser.button(type: 'submit').click
 
